@@ -1,0 +1,28 @@
+{
+  "reactComponent": {
+    "body": [
+      "import React from 'react';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "export const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: React.FC = () => {",
+      "  return <div />;",
+      "}",
+      ""
+    ],
+    "description": "Create ReactJS Functional Component Typescript\n\rWith arrow function",
+    "prefix": "rfc"
+  },
+  "styles": {
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const ${1:Container} = styled.${2:section}`",
+      "  ${3}",
+      "`;",
+      ""
+    ],
+    "description": "Create Style with styled-components to ReactJS",
+    "prefix": "srfc"
+  }
+}
